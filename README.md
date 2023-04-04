@@ -20,7 +20,7 @@ A python-based mp3-file player that uses tkinter for a basic GUI
 Install dependencies using pip
 
 ```bash
-    pip install tkinter customtkinter pygame mutagen Pillow
+    pip install tk customtkinter pygame mutagen Pillow
 ```
     
 ## Demo
