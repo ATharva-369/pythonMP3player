@@ -38,7 +38,6 @@ def Play():
     song_length = int(audio.info.length)
     my_slider.config(to=song_length)
     mx.play(start = int(my_slider.get()))
-    vol.set(100)
 #pause function
 def Pause():
     mx.pause()
@@ -129,7 +128,8 @@ vol = tk.ttk.Scale(
     
 )
 vol.place(relx = 0.95, rely = 0.8, anchor = tk.CENTER, )
-
+vol.set(50)
+mx.set_volume(0.5)
 play_button = ck.CTkButton(master=m, text='' , image=play_button, command = Play, width=50, height=50, fg_color="#1A1110", hover=False)
 play_button.image = play_button
 play_button.place(relx = 0.2, rely = 0.6, anchor = tk.CENTER)
