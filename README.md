@@ -25,5 +25,4 @@ Install dependencies using pip
     
 ## Demo
 
-Insert gif or link to demo
-
+https://imgur.com/kmxYCDP
